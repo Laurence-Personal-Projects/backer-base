@@ -7,6 +7,7 @@ const variantClasses = {
   danger: "border border-red-600 text-white bg-red-600 hover:bg-transparent hover:text-red-600",
   transparent_white: "border border-[#FBFBE6] text-[#FBFBE6] bg-transparent hover:bg-[#FBFBE6] hover:text-[#1E1E1E]",
   gradient_orange: "gradient-full-orange",
+  warning: "border border-yellow-500 text-white bg-yellow-500 hover:bg-transparent hover:text-yellow-500",
   none: "",
 };
 
