@@ -12,6 +12,8 @@ type SideDrawerProps = {
   children: React.ReactNode;
 };
 
+const MenuTitle = "Menu";
+
 const SideDrawer = ({ open, onOpenChange, children }: SideDrawerProps) => {
   return (
     <Dialog.Root open={open} onOpenChange={onOpenChange}>
@@ -19,7 +21,7 @@ const SideDrawer = ({ open, onOpenChange, children }: SideDrawerProps) => {
         <Dialog.Overlay className="fixed inset-0 bg-black/40 z-50" />
 
         <Dialog.Title asChild>
-            <VisuallyHidden>Menu</VisuallyHidden>
+            <VisuallyHidden>{MenuTitle}</VisuallyHidden>
         </Dialog.Title>
 
         <Dialog.Content
