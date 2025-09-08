@@ -18,7 +18,7 @@ const tabs = [
   "Popular",
   "Recent",
   "Categories",
-  "Type",
+  "Backer Type",
 ];
 
 // Data for backer base items
