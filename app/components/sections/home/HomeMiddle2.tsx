@@ -42,7 +42,9 @@ const HomeMiddle2 = () => {
 
             <div className="w-full xl:w-[60%] xl:absolute right-0 top-0 z-[1] min-h-[100px] xl:min-h-0 lg:min-h-[200px]">
               <h2 className="inline-flex purple-gradient-text uppercase text-[42px] lg:text-[100px] 2xl:text-[145px] leading-[88%] flex-col font-bold animate__animated is_animate" data-animation="animate__bounceInRight">How Dreams Become</h2>
+
               <div className="orange-gradient-text absolute right-0 md:right-[6%] xl:right-[2%] xl:top-[38%] z-[6] text-[11vw] lg:text-[11vw] leading-[88%] font-splash rotate-[-18.75deg] min-h-[100px] lg:min-h-[244px] xl:min-h-[280px] inline-flex items-center animate__animated is_animate px-[32px]" data-animation="animate__bounceIn" data-delay="0.6">Reality</div>
+              
             </div>
 
             <div className="w-full flex justify-between items-stretch xl:items-start flex-wrap gap-y-[40px] xl:gap-0">
