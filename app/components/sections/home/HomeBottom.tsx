@@ -3,6 +3,7 @@ import AnchorButton from "@/app/components/ui/anchorbutton";
 const HomeBottom = () => {
   return (
     <div className="w-full">
+
       <div className="w-full px-[24px] py-[60px] lg:py-[120px] overflow-x-hidden">
         <div className="wrapper">
           <div className="w-full">
@@ -19,6 +20,7 @@ const HomeBottom = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
