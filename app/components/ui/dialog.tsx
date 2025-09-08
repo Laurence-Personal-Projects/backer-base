@@ -89,6 +89,7 @@ const Dialog = ({
               {renderIcon()}
               <RadixDialog.Title className="dialog-title font-semibold text-xl">{title}</RadixDialog.Title>
             </div>
+
             <RadixDialog.Close asChild>
               <button
                 className="dialog-close-button text-gray-500 hover:text-black"
@@ -97,6 +98,7 @@ const Dialog = ({
                 <X />
               </button>
             </RadixDialog.Close>
+
           </div>
 
           {/* Body */}
