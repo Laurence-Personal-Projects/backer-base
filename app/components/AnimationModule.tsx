@@ -37,7 +37,7 @@ export default function AnimationModule() {
     });
 
     return () => observer.disconnect();
-  }, [pathname]); // 🔁 Rerun when path changes
+  }, [pathname]); // 🔁 Rerun animation when path changes
 
   return null;
 }
