@@ -7,6 +7,7 @@ import {
   TabsContent
 } from '@radix-ui/react-tabs';
 
+
 import TheBaseTabList from "@/app/components/sections/TheBaseTabList";
 import AnchorButton from "@/app/components/ui/anchorbutton";
 

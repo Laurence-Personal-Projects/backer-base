@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import AnchorButton from "@/app/components/ui/anchorbutton";
 
+
 const HomeMainBottom = () => {
   const skaterRef = useRef<HTMLImageElement>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
