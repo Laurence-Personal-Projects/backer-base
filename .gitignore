@@ -32,6 +32,6 @@ Thumbs.db
 # Optional: Ignore test coverage reports
 coverage/
 
-# Optional: Ignore local data files or cache
+# Optional: Ignore local data files or cache data
 *.local
 .cache/
